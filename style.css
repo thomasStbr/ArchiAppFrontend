@@ -1,0 +1,127 @@
+
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0; /* Style clair par défaut */
+    color: #333;
+}
+
+
+header {
+    background-color: #007bff;
+    color: white;
+    padding: 1em;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 1em;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    padding: 2em;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+#messages h2, #compose-message h2 {
+    color: #007bff;
+}
+
+#message-list li {
+    background-color: white;
+    border: 1px solid #ddd;
+    margin-bottom: 1em;
+    padding: 1em;
+}
+
+#compose-message form {
+    background-color: white;
+    border: 1px solid #ddd;
+    padding: 1em;
+}
+
+#compose-message form label {
+    display: block;
+    margin-bottom: 0.5em;
+}
+
+#compose-message form input,
+#compose-message form textarea {
+    width: calc(100% - 2em);
+    padding: 0.5em;
+    margin-bottom: 1em;
+    border: 1px solid #ccc;
+}
+
+#compose-message form button {
+    background-color: #007bff;
+    color: white;
+    padding: 0.5em 1em;
+    border: none;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+#update-button {
+    background-color: #e0e0e0;
+    padding: .5em 1em;
+}
+
+body.dark-mode {
+    background-color: #333;
+    color: #000; /* Changement ici : gris plus doux */
+}
+
+body.dark-mode #compose-message form {
+    background-color: #444;
+    border-color: #555;
+}
+
+body.dark-mode #message-list li {
+    background-color: #444;
+    border-color: #555;
+}
+
+body.dark-mode #style-button {
+    background-color: #555;
+    color: #000; /* Changement ici : gris plus doux */
+    border: none;
+}
+body.dark-mode #update-button {
+    background-color: #555;
+    color: #000; /* Changement ici : gris plus doux */
+    border: none;
+}
+
+body.dark-mode #compose-message form input,
+body.dark-mode #compose-message form textarea {
+    background-color: #555;
+    color: #000; /* Changement ici : gris plus doux */
+    border-color: #666;
+}
+
+body.dark-mode #compose-message form button {
+    background-color: #555;
+    color: #000; /* Changement ici : gris plus doux */
+    border: none;
+}

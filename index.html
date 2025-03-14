@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Messagerie Simple</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <header>
+        <h1>Messagerie</h1>
+    </header>
+
+    <main>
+        <button id="style-button">Changer de style</button>
+        <section id="messages">
+            <h2>Messages</h2>
+            <ul id="message-list">
+                </ul>
+        </section>
+        <button id="update-button">Mettre à jour les messages</button>
+
+
+        <section id="compose-message">
+            <h2>Nouveau Message</h2>
+            <form id="message-form" action="#" method="post">
+                <label for="pseudo">Pseudo:</label>
+                <input type="text" id="pseudo" name="pseudo" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+
+                <button type="submit">Envoyer</button>
+            </form>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Messagerie Simple</p>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
