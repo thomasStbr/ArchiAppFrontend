@@ -1,12 +1,10 @@
-
 body {
     font-family: sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f0f0f0; 
+    background-color: #f0f0f0;
     color: #333;
 }
-
 
 header {
     background-color: #007bff;
@@ -45,12 +43,14 @@ main {
     border: 1px solid #ddd;
     margin-bottom: 1em;
     padding: 1em;
+    color: black;
 }
 
 #compose-message form {
     background-color: white;
     border: 1px solid #ddd;
     padding: 1em;
+    color: black;
 }
 
 #compose-message form label {
@@ -64,6 +64,8 @@ main {
     padding: 0.5em;
     margin-bottom: 1em;
     border: 1px solid #ccc;
+    color: black;
+    background-color: white;
 }
 
 #compose-message form button {
@@ -86,43 +88,37 @@ footer {
 #update-button {
     background-color: #e0e0e0;
     padding: .5em 1em;
+    color: black;
 }
 
 body.dark-mode {
     background-color: #333;
-    color: #000; 
+    color: white;
 }
 
 body.dark-mode #compose-message form {
     background-color: #444;
     border-color: #555;
+    color: white;
 }
 
 body.dark-mode #message-list li {
     background-color: #444;
     border-color: #555;
+    color: white;
 }
 
-body.dark-mode #style-button {
+body.dark-mode #style-button,
+body.dark-mode #update-button,
+body.dark-mode #compose-message form button {
     background-color: #555;
-    color: #000; 
-    border: none;
-}
-body.dark-mode #update-button {
-    background-color: #555;
-    color: #000; 
+    color: white;
     border: none;
 }
 
 body.dark-mode #compose-message form input,
 body.dark-mode #compose-message form textarea {
     background-color: #555;
-    color: #000; 
+    color: white;
     border-color: #666;
-}
-
-body.dark-mode #compose-message form button {
-    background-color: #555;
-    color: #000; 
-    border: none;
 }
