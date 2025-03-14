@@ -18,7 +18,7 @@ function applique(f, args) {
     return result;
 
     // COmpletement equivalent a 
-    return args.map(f)
+    // return args.map(f)
     
 }
 
