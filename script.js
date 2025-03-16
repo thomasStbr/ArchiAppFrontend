@@ -47,7 +47,7 @@ document.getElementById('message-form').addEventListener('submit', function(even
   }
 
   fetch('https://archiappbackend.onrender.com/msg/post', {
-      method: "POST",
+      method: "GET",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({ msg: messageText, pseudo: pseudo })
   })
